@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.father{
+    position: absolute;
+    background-color: rgba(33, 134, 250, 0.377);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:20%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.child1{
+    position: relative;
+    width: 80vw;
+    background-color: #00a9ff;
+    height: 100%;
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:100%;
+}
+.child2{
+    width: 50vw;
+    background-color: #21b2fa;
+    height: 100%;
+    border-bottom-right-radius: 100%;
+    top: 0%;
+    left: -30%;
+
+}
+
+.text{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    background-color: coral;
+    top: 20%;
+    left: 22%;
+}
+
+.ofert{
+    position: relative;
+    width: 200px;
+    height: 600px;
+    background-color: white;
+    top: 20%;
+    left: 100%;
+}
+
+
